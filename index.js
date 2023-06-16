@@ -27,72 +27,72 @@ const app = {
    config: JSON.parse(localStorage.getItem(PlAYER_STORAGE_KEY)) || {},
   songs: [
     {
-      name: "Mây Đêm Chờ Mấy Đêm",
-      singer: "Nguyễn Hữu Kha",
-      path: "https://c1-ex-swe.nixcdn.com/NhacCuaTui1022/MayDemChoMayDem-NguyenHuuKha-7096917.mp3",
-      image: "https://avatar-ex-swe.nixcdn.com/song/2021/09/27/3/a/f/2/1632715287391_500.jpg"
-    },
-    {
-      name: "Câu Hứa Chưa Trọn Vẹn",
-      singer: "Phát Huy T4",
-      path: "https://c1-ex-swe.nixcdn.com/NhacCuaTui1022/CauHuaChuaVenTron-PhatHuyT4-7093319.mp3",
+      name: "Hay Là Chúng Ta Cứ Như Vậy Vạn Năm",
+      singer: "Hoàng Tiêu Vân",
+      path: "../music/HLCT.mp3",
       image:
-        "https://avatar-ex-swe.nixcdn.com/song/2021/09/23/b/9/f/5/1632384189938_500.jpg"
+        "https://i.ytimg.com/vi/IpyuutsdFAY/mqdefault.jpg"
     },
     {
-      name: "Ái Nộ",
-      singer: "Masew, Khôi Vũ",
+      name: "Nếu lúc đó",
+      singer: "tlinh, 2pill",
+      path: "https://c1-ex-swe.nixcdn.com/NhacCuaTui2036/NeuLucDo-tlinh2pillz-8783613.mp3",
+      image: "https://avatar-ex-swe.nixcdn.com/song/2023/02/27/2/9/a/2/1677482230509_500.jpg"
+    },
+    {
+      name: "Ngủ một mình",
+      singer: "HIEUTHUHAI, Negav, Kewtiie",
+      path: "https://c1-ex-swe.nixcdn.com/NhacCuaTui2031/NguMotMinh-HIEUTHUHAINegavKewtiie-8267763.mp3",
+      image:
+        "https://avatar-ex-swe.nixcdn.com/song/2022/11/16/a/e/6/9/1668568582316_500.jpg"
+    },
+    {
+      name: "Dangerously",
+      singer: "Charlie Puth",
       path:
-        "https://c1-ex-swe.nixcdn.com/NhacCuaTui1021/AiNo1-MasewKhoiVu-7078913.mp3",
-      image: "https://avatar-ex-swe.nixcdn.com/song/2021/08/30/2/1/a/e/1630316309035_500.jpg"
+        "../music/Dangerously.mp3",
+      image: "https://avatar-ex-swe.nixcdn.com/song/2020/08/05/a/d/4/9/1596621129906_500.jpg"
     },
     {
-      name: "Phận Duyên Lỡ Làng",
-      singer: " Phát Huy T4, Truzg",
-      path: "https://c1-ex-swe.nixcdn.com/NhacCuaTui1014/PhanDuyenLoLang-PhatHuyT4Trugz-7004538.mp3",
+      name: "Ngày em đẹp nhất",
+      singer: "Tama",
+      path: "../music/NgayEmDepNhat.mp3",
       image:
-        "https://avatar-ex-swe.nixcdn.com/song/2021/04/14/c/3/3/b/1618383513976_500.jpg"
+        "https://avatar-ex-swe.nixcdn.com/song/2023/04/10/e/5/0/a/1681108357326_500.jpg"
     },
     {
-      name: "Độ Tộc 2",
-      singer: " Masew, Độ Mixi, Phúc Du, V.A",
-      path: "https://c1-ex-swe.nixcdn.com/NhacCuaTui1020/DoToc2-MasewDoMixiPhucDuPhao-7064730.mp3",
+      name: "Cupid",
+      singer: "FIFTY FIFTY",
+      path: "../music/Cupid.mp3",
       image:
-        "https://avatar-ex-swe.nixcdn.com/song/2021/08/10/b/2/e/0/1628579601228_500.jpg"
+        "https://avatar-ex-swe.nixcdn.com/song/2023/03/10/e/5/d/1/1678417187721_640.jpg"
     },
     {
-      name: "Stay",
-      singer: "The Kid LAROI, Justin Bieber",
-      path: "https://c1-ex-swe.nixcdn.com/NhacCuaTui1018/Stay-TheKidLAROIJustinBieber-7045258.mp3?st=tDMLXwH5rcrkO9nF-Y0mWA&e=1638769802",
-      image: "https://avatar-nct.nixcdn.com/song/2021/07/09/5/5/8/2/1625815274622.jpg"
+      name: "Dandelions",
+      singer: "Ruth B",
+      path: "../music/Dandelions.mp3",
+      image: "https://i.ytimg.com/vi/WgTMeICssXY/mqdefault.jpg"
     },
     {
-      name: "Thunder",
-      singer: "Gabry Ponte, LUM!X, Prezioso",
-      path: "https://seaf20.ytop1.com/files/2021/9/4/lyrics_vietsub_thunder_gabry_ponte_lum_x_prezioso_5813273004371968400.mp3",
+      name: "Đào Hoa Nặc",
+      singer: "Đặng Tử Kỳ",
+      path: "../music/DaoHoaNac.mp3",
       image:
-        "https://avatar-ex-swe.nixcdn.com/song/2021/09/13/3/8/9/0/1631507287563_500.jpg"
+        "https://webtiengtrung.com/wp-content/uploads/2023/03/%C4%91%C3%A0o-hoa-n%E1%BA%B7c.jpg"
     },
     {
-      name: "Phi Hành Gia",
-      singer: "Lil Wuyn",
-      path: "https://seaf20.ytop1.com/files/2021/12/18/lil_wuyn_phi_hanh_gia_a_b_c_d_e_hot_tiktok_video_lyric_4707950429188629381.mp3",
+      name: "Một ngày chẳng nắng",
+      singer: "Pháo Northside x Thỏ Bảy Màu",
+      path: "../music/MNCN.mp3",
       image:
-        "https://i.ytimg.com/vi/zrSK-CW6HYU/maxresdefault.jpg"
+        "https://i.ytimg.com/vi/ABuY4KUUVcI/maxresdefault.jpg"
     },
     {
-      name: "Không Phải Tại Nó",
-      singer: "Mai Ngô ft Lạc (Rhymastic)",
-      path: "https://seaf20.ytop1.com/files/2021/12/18/lyrics_khong_phai_tai_no_mai_ngo_ft_lac_rhymastic_rap_viet_mua_2_-8409051927788490116.mp3",
+      name: "Making My Way",
+      singer: "Sơn Tùng-MTP",
+      path: "../music/MKMW.mp3",
       image:
-        "https://i.ytimg.com/vi/2CFF7SPgKXA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD6s0U6efRpkmitEnTp6t9LSTgogA"
-    },
-    {
-      name: "MONEY",
-      singer: "LISA",
-      path: "https://seaf20.ytop1.com/files/2021/12/18/lisa_money_lyrics_-3156545527642642932.mp3",
-      image:
-        "https://i.ytimg.com/vi/XciuJq4IAtg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCvslT0hMN8IpYtq-9Fdo6DXSSraQ"
+        "https://i1.sndcdn.com/artworks-vVV3zxIIBvCfCLMH-4RQl1w-t500x500.jpg"
     },
   ],
   setConfig: function (key, value) {
