@@ -63,7 +63,7 @@ const app = {
     {
       name: "Cupid",
       singer: "FIFTY FIFTY",
-      path: "/Cupid.mp3",
+      path: "https://nuitfsdev.github.io/musicplayer/Cupid.mp3",
       image:
         "https://avatar-ex-swe.nixcdn.com/song/2023/03/10/e/5/d/1/1678417187721_640.jpg"
     },
