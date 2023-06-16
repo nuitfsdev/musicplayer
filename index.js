@@ -29,7 +29,7 @@ const app = {
     {
       name: "Hay Là Chúng Ta Cứ Như Vậy Vạn Năm",
       singer: "Hoàng Tiêu Vân",
-      path: "../music/HLCT.mp3",
+      path: "/HLCT.mp3",
       image:
         "https://i.ytimg.com/vi/IpyuutsdFAY/mqdefault.jpg"
     },
@@ -50,47 +50,47 @@ const app = {
       name: "Dangerously",
       singer: "Charlie Puth",
       path:
-        "../music/Dangerously.mp3",
+        "/Dangerously.mp3",
       image: "https://avatar-ex-swe.nixcdn.com/song/2020/08/05/a/d/4/9/1596621129906_500.jpg"
     },
     {
       name: "Ngày em đẹp nhất",
       singer: "Tama",
-      path: "../music/NgayEmDepNhat.mp3",
+      path: "/NgayEmDepNhat.mp3",
       image:
         "https://avatar-ex-swe.nixcdn.com/song/2023/04/10/e/5/0/a/1681108357326_500.jpg"
     },
     {
       name: "Cupid",
       singer: "FIFTY FIFTY",
-      path: "../music/Cupid.mp3",
+      path: "/Cupid.mp3",
       image:
         "https://avatar-ex-swe.nixcdn.com/song/2023/03/10/e/5/d/1/1678417187721_640.jpg"
     },
     {
       name: "Dandelions",
       singer: "Ruth B",
-      path: "../music/Dandelions.mp3",
+      path: "/Dandelions.mp3",
       image: "https://i.ytimg.com/vi/WgTMeICssXY/mqdefault.jpg"
     },
     {
       name: "Đào Hoa Nặc",
       singer: "Đặng Tử Kỳ",
-      path: "../music/DaoHoaNac.mp3",
+      path: "/DaoHoaNac.mp3",
       image:
         "https://webtiengtrung.com/wp-content/uploads/2023/03/%C4%91%C3%A0o-hoa-n%E1%BA%B7c.jpg"
     },
     {
       name: "Một ngày chẳng nắng",
       singer: "Pháo Northside x Thỏ Bảy Màu",
-      path: "../music/MNCN.mp3",
+      path: "/MNCN.mp3",
       image:
         "https://i.ytimg.com/vi/ABuY4KUUVcI/maxresdefault.jpg"
     },
     {
       name: "Making My Way",
       singer: "Sơn Tùng-MTP",
-      path: "../music/MKMW.mp3",
+      path: "/MKMW.mp3",
       image:
         "https://i1.sndcdn.com/artworks-vVV3zxIIBvCfCLMH-4RQl1w-t500x500.jpg"
     },
